@@ -1,4 +1,3 @@
-# Enterprise-soc-lab-CyberShield-
 # Enterprise SOC & Network Security Lab
 
 ## Overview
