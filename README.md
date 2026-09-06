@@ -12,43 +12,7 @@ The objective is to simulate how a SOC team monitors, detects, investigates, and
 
 The lab consists of multiple security zones connected through an OPNsense firewall:
 
-```text
-                         INTERNET
-                            |
-                     +-------------+
-                     |   OPNsense  |
-                     | Firewall    |
-                     | VLAN Routing|
-                     | Suricata    |
-                     +------+------+
-                            |
-                       VLAN TRUNK
-                            |
-        +-------------------+-------------------+
-        |                   |                   |
-     VLAN 10             VLAN 20             VLAN 30
-        HR                   IT                  DMZ
-        |                    |                   |
-    HR-PC01              IT-PC01              WEB01
-   Windows 11           Windows 11            Ubuntu
-     Sysmon                Sysmon               Apache
-     Wazuh                 Wazuh                Wazuh
-        |                    |                   |
-        +--------------------+-------------------+
-                             |
-                          VLAN 40
-                         SECURITY
-                             |
-                         WAZUH01
-                       SIEM / XDR
-                             |
-                          VLAN 99
-                       MANAGEMENT
-                             |
-                           DC01
-                    Windows Server / AD
-```
-
+<img width="1312" height="1199" alt="ChatGPT Image Sep 5, 2026, 11_03_03 PM" src="https://github.com/user-attachments/assets/c2fefd25-2ec9-427b-ab4a-1bb006f9995b" />
 ## Network Design
 
 | VLAN | Purpose    | Network       | Gateway    |
