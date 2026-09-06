@@ -32,16 +32,8 @@ The lab consists of multiple security zones connected through an OPNsense firewa
 
 ## Security Technologies
 
-* OPNsense
-* Suricata
-* Wazuh
-* Sysmon
-* Active Directory
-* Apache
-* Windows Event Logging
-* Linux Logging
-* Kali Linux
-* VMware Workstation
+<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 11_14_28 PM" src="https://github.com/user-attachments/assets/beccf224-eec4-4aee-8dda-d87fc4ad6da3" />
+
 
 ## Security Objectives
 
@@ -62,25 +54,8 @@ This lab demonstrates:
 
 ## Security Investigations
 
-The project will contain documented investigations based on controlled activity inside the lab.
+<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 11_17_53 PM" src="https://github.com/user-attachments/assets/16619769-de8f-42db-a36a-a7ff0b986de8" />
 
-### INC-001 — Network Reconnaissance
-
-Simulated port scanning activity is detected by network security monitoring and investigated through centralized logging.
-
-**MITRE ATT&CK:** T1046 — Network Service Scanning
-
-### INC-002 — Authentication Activity
-
-Controlled authentication failures are generated and investigated using Windows security logs and Wazuh.
-
-### INC-003 — Suspicious PowerShell Activity
-
-Controlled PowerShell activity is monitored using Sysmon and analyzed through Wazuh.
-
-### INC-004 — Web Attack Attempt
-
-Controlled web attack traffic is generated against the isolated DMZ web server and correlated with Apache, Suricata, and Wazuh telemetry.
 
 ## Project Workflow
 
@@ -102,6 +77,5 @@ The environment will be built in phases:
 
 ## Portfolio Objective
 
-This project is designed to demonstrate practical experience with enterprise networking, security monitoring, SIEM operations, endpoint telemetry, intrusion detection, and SOC investigation workflows.
+<img width="1536" height="1024" alt="ChatGPT Image Sep 5, 2026, 11_20_28 PM" src="https://github.com/user-attachments/assets/337b7a88-2a4c-49d9-8a33-8c97924855c8" />
 
-All security testing is performed within an isolated and authorized laboratory environment.
