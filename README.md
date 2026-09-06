@@ -15,13 +15,8 @@ The lab consists of multiple security zones connected through an OPNsense firewa
 <img width="1312" height="1199" alt="ChatGPT Image Sep 5, 2026, 11_03_03 PM" src="https://github.com/user-attachments/assets/c2fefd25-2ec9-427b-ab4a-1bb006f9995b" />
 ## Network Design
 
-| VLAN | Purpose    | Network       | Gateway    |
-| ---- | ---------- | ------------- | ---------- |
-| 10   | HR         | 10.10.10.0/24 | 10.10.10.1 |
-| 20   | IT         | 10.10.20.0/24 | 10.10.20.1 |
-| 30   | DMZ        | 10.10.30.0/24 | 10.10.30.1 |
-| 40   | Security   | 10.10.40.0/24 | 10.10.40.1 |
-| 99   | Management | 10.10.99.0/24 | 10.10.99.1 |
+<img width="1774" height="887" alt="ChatGPT Image Sep 5, 2026, 11_08_46 PM" src="https://github.com/user-attachments/assets/3e350ee8-391d-43fb-b534-b7f7d5322375" />
+
 
 ## Virtual Machines
 
